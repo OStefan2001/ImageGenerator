@@ -1,0 +1,25 @@
+/* Default styles pentru toate ecranele */
+.your-banner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.your-banner {
+  /* Stilurile tale pentru banner */
+  margin: 10px; /* Adaugă spațiu între bannere */
+}
+
+/* Stiluri pentru ecranele de dimensiuni mari (laptop și altele) */
+@media (min-width: 768px) {
+  .your-banner-container {
+    flex-direction: row; /* Așază bannerele unul lângă altul */
+  }
+}
+
+/* Stiluri pentru ecranele de dimensiuni mici (telefon) */
+@media (max-width: 767px) {
+  .your-banner-container {
+    flex-direction: column; /* Așază bannerele unul sub celălalt */
+  }
+}

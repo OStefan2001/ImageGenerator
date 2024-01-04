@@ -1,0 +1,10 @@
+.toggler {
+  display: flex;
+  align-items: center;
+}
+.toggler img {
+  margin-right: 10px;
+  margin-bottom: 5%;
+  width: 20px;
+  height: 20px;
+}

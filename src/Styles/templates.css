@@ -1,0 +1,33 @@
+.smartphone {
+    position: relative;
+    width: 270px;
+    height: 500px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 45px;
+    border-bottom-width: 45px;
+    border-radius: 36px;
+  }
+  
+  .smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  }
+  
+  
+  .smartphone .content {
+    width: 238px;
+    height: 410px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
