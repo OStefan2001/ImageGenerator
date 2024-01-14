@@ -17,7 +17,7 @@ function BannerType(props: {
     <>
       <Card
         className={props.darkMode ? 'bg-dark text-light' : 'bg-light'}
-        style={{ width: 'auto' }}
+        style={{ width: 'auto'}}
       >
         <Card.Img variant="top" src={props.typeImg} />
         <Card.Body>

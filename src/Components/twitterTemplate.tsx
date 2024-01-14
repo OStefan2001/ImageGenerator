@@ -70,7 +70,8 @@ const generateTextAndImg = async () => {
     <div className="col-md-6 mx-auto mt-1">
         <div className="row g-0 flex-md-row mb-4 "> 
             <div className="col p-3 d-flex flex-column position-static mr-3">
-            <h3 className="mb-0">Generated text:<br/>{generatedText}</h3>
+            <h3 className="mb-0">Generated text:</h3>
+            <p>{generatedText}</p>
             </div>
             <div className="col-auto d-lg-block">
             <div className='mt-1 d-flex align-content-center'>
