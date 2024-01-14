@@ -25,7 +25,7 @@ function App() {
     window.location.reload();
   }
   return (
-    <>
+    <div className = 'bg-secondary text-light'>
       <NavbarH darkMode={darkMode} toggleDarkMode={toggleDarkMode} refreshPage={refreshPage}/>
       {selectedTemplate === 'Instagram Post' ? (
       <InstaTemplate darkMode={darkMode} refreshPage={refreshPage}/>
@@ -38,7 +38,7 @@ function App() {
       ) : (
       <BannerList darkMode={darkMode} setSelectedTemplate={setSelectedTemplate} />
       )}
-    </>
+    </div>
   );
 }
 export default App;
